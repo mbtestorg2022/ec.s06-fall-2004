@@ -6,15 +6,389 @@ uid: bd381f0f-c9d6-06bc-9aa9-65b29f1641d6
 
 The calendar below provides information on the lecture and lab sessions for the course.
 
-| week # | lectures | labs | topics | new components and applications | key dates |
-| --- | --- | --- | --- | --- | --- |
-| 1 |  | Lab 1: Course Introduction | Course Mechanics  {{< br >}}  {{< br >}}Goals of Subject  {{< br >}}  {{< br >}}Safety Orientation  {{< br >}}  {{< br >}}_Fundamental Notions_  {{< br >}}Current is flow of discrete charges  {{< br >}}Voltage is a measure of the (potential) energy of each charge  {{< br >}}  {{< br >}}Ohm's Law  {{< br >}}  {{< br >}}_Voltage and Current Dividers_  {{< br >}}Kirchoff's Voltage and Current Laws | _New Components  {{< br >}}  {{< br >}}_Power Supply  {{< br >}}  {{< br >}}Banana Cables and Alligator Clips  {{< br >}}  {{< br >}}DMM  {{< br >}}  {{< br >}}White Protoboard  {{< br >}}  {{< br >}}_Applications  {{< br >}}_  {{< br >}}Scaling Signals | Homework 1 out |
-| 2 | Lec 1: Resistors and Diodes | Lab 2: Resistors and Diodes | Power Dissipation  {{< br >}}  {{< br >}}Resistors, Color Code, Power Rating  {{< br >}}  {{< br >}}Discuss diodes as one-way valves, introduce voltage drop  {{< br >}}  {{< br >}}Demonstrate exceeding the current limit on an LED!  {{< br >}}  {{< br >}}How to specify current-limiting resistors for diodes  {{< br >}}  {{< br >}}Note that reversed LEDs in parallel indicate the direction of current flow  {{< br >}}  {{< br >}}Three-pin Regulator (7805) | _New Components  {{< br >}}  {{< br >}}_Resistors (show resistors of same value but different power ratings)  {{< br >}}  {{< br >}}LEDs  {{< br >}}  {{< br >}}Potentiometers  {{< br >}}  {{< br >}}78xx Series Voltage Regulators  {{< br >}}  {{< br >}}_Applications  {{< br >}}  {{< br >}}_Indicators  {{< br >}}  {{< br >}}Power Supplies | Homework 2 out  {{< br >}}  {{< br >}}Homework 1 due |
-| 3 | Lec 2: Switches, Rectifiers and Function Generators | Lab 3: Bridge Circuits | Discuss Switches  {{< br >}}  {{< br >}}DPDT Knife Switch as to make AC "square" wave from DC  {{< br >}}  {{< br >}}Introduce Bridge Rectifier | _New Components_  {{< br >}}  {{< br >}}DPDT Knife Switch  {{< br >}}  {{< br >}}Function Generator  {{< br >}}  {{< br >}}Oscilloscope  {{< br >}}  {{< br >}}9V Cell  {{< br >}}  {{< br >}}_Applications  {{< br >}}_  {{< br >}}Rectifiers for AC-to-DC Conversion | Homework 3 out  {{< br >}}  {{< br >}}Homework 2 due |
-| 4-5 | Lec 3: Capacitors  {{< br >}}  {{< br >}}Lec 4: RC Circuits | Lab 4: Oscilloscopes and Capacitors  {{< br >}}  {{< br >}}Lab 5: Filters | _Introduce Capacitors  {{< br >}}  {{< br >}}_Water Analogy to Storage Tank  {{< br >}}  {{< br >}}Describe their Composition  {{< br >}}  {{< br >}}Discuss Charge Storage and E-field  {{< br >}}  {{< br >}}State q = CV and E = CV2/2  {{< br >}}  {{< br >}}Derive differential equations for RC and show exponentials are solutions | _New Components_  {{< br >}}  {{< br >}}Capacitors  {{< br >}}  {{< br >}}_Applications  {{< br >}}  {{< br >}}_Filters for: Ripple, Noise Removal, Sig. Detection, Equalization  {{< br >}}  {{< br >}}Regulated Power Supply | Homework 3 due |
-| 6 | Lec 5: Relays and Transistors | Lab 6: Relays and Transistors | _Electromechanical Relay  {{< br >}}  {{< br >}}_How it works  {{< br >}}  {{< br >}}Specifications for Driving Coil  {{< br >}}  {{< br >}}State need for Flyback Diode  {{< br >}}  {{< br >}}_Motors and their operation Bipolar Transistors as switches NPN only, properties under  {{< br >}}  {{< br >}}_No Bias  {{< br >}}  {{< br >}}Linear Regime  {{< br >}}  {{< br >}}Saturation | _New Components_  {{< br >}}  {{< br >}}DC Motor  {{< br >}}  {{< br >}}E-M Relay  {{< br >}}  {{< br >}}NPN Transistor  {{< br >}}  {{< br >}}_Applications  {{< br >}}_  {{< br >}}Control of Lighting, Motion, the Universe, and Everything | Homework 4 out |
-| 7 | Lec 6: Op-Amps | Lab 7: Op-Amps | _Op-Amps  {{< br >}}  {{< br >}}_Golden Rules  {{< br >}}  {{< br >}}Analyze Inverting Amp  {{< br >}}  {{< br >}}Discuss Behavior Near Rails  {{< br >}}  {{< br >}}_Some Limits on Applicability of Golden Rules  {{< br >}}  {{< br >}}Comparators  {{< br >}}  {{< br >}}_Rules of Operation  {{< br >}}  {{< br >}}Inverting Circuit  {{< br >}}  {{< br >}}Non-Inverting | _New Components_  {{< br >}}  {{< br >}}741 Op-Amp as Amplifier  {{< br >}}  {{< br >}}741 Op-Amp as Comparator  {{< br >}}  {{< br >}}_Applications  {{< br >}}_  {{< br >}}Signal Conditioning, etc. | Homework 4 due |
-| 8 | Lec 7: Flip-Flops and the 555 Timer Circuit | Lab 8: 555 Timer Circuit | 555 Timers | _New Components  {{< br >}}  {{< br >}}_555 Timer |  |
-| 9 | Lec 8: Final Project Overview | Lab 9: Sensors | CdS Cells as Sensors | _New Components_  {{< br >}}  {{< br >}}CdS Cell  {{< br >}}  {{< br >}}_Applications  {{< br >}}_  {{< br >}}Many Robotic and Electro-mechanical Applications! |  |
-| 10 | Lec 9: Final Project Concepts |  |  |  |  |
-| 11-14 | Final Projects | Final Projects |  |  | Final Presentation
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+week #
+{{< thclose >}}
+{{< thopen >}}
+lectures
+{{< thclose >}}
+{{< thopen >}}
+labs
+{{< thclose >}}
+{{< thopen >}}
+topics
+{{< thclose >}}
+{{< thopen >}}
+new components and applications
+{{< thclose >}}
+{{< thopen >}}
+key dates
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 1: Course Introduction
+{{< tdclose >}}
+{{< tdopen >}}
+Course Mechanics  
+  
+Goals of Subject  
+  
+Safety Orientation  
+  
+_Fundamental Notions_  
+Current is flow of discrete charges  
+Voltage is a measure of the (potential) energy of each charge  
+  
+Ohm's Law  
+  
+_Voltage and Current Dividers_  
+Kirchoff's Voltage and Current Laws
+{{< tdclose >}}
+{{< tdopen >}}
+_New Components  
+  
+_Power Supply  
+  
+Banana Cables and Alligator Clips  
+  
+DMM  
+  
+White Protoboard  
+  
+_Applications  
+_  
+Scaling Signals
+{{< tdclose >}}
+{{< tdopen >}}
+Homework 1 out
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+Lec 1: Resistors and Diodes
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 2: Resistors and Diodes
+{{< tdclose >}}
+{{< tdopen >}}
+Power Dissipation  
+  
+Resistors, Color Code, Power Rating  
+  
+Discuss diodes as one-way valves, introduce voltage drop  
+  
+Demonstrate exceeding the current limit on an LED!  
+  
+How to specify current-limiting resistors for diodes  
+  
+Note that reversed LEDs in parallel indicate the direction of current flow  
+  
+Three-pin Regulator (7805)
+{{< tdclose >}}
+{{< tdopen >}}
+_New Components  
+  
+_Resistors (show resistors of same value but different power ratings)  
+  
+LEDs  
+  
+Potentiometers  
+  
+78xx Series Voltage Regulators  
+  
+_Applications  
+  
+_Indicators  
+  
+Power Supplies
+{{< tdclose >}}
+{{< tdopen >}}
+Homework 2 out  
+  
+Homework 1 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+Lec 2: Switches, Rectifiers and Function Generators
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 3: Bridge Circuits
+{{< tdclose >}}
+{{< tdopen >}}
+Discuss Switches  
+  
+DPDT Knife Switch as to make AC "square" wave from DC  
+  
+Introduce Bridge Rectifier
+{{< tdclose >}}
+{{< tdopen >}}
+_New Components_  
+  
+DPDT Knife Switch  
+  
+Function Generator  
+  
+Oscilloscope  
+  
+9V Cell  
+  
+_Applications  
+_  
+Rectifiers for AC-to-DC Conversion
+{{< tdclose >}}
+{{< tdopen >}}
+Homework 3 out  
+  
+Homework 2 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4-5
+{{< tdclose >}}
+{{< tdopen >}}
+Lec 3: Capacitors  
+  
+Lec 4: RC Circuits
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 4: Oscilloscopes and Capacitors  
+  
+Lab 5: Filters
+{{< tdclose >}}
+{{< tdopen >}}
+_Introduce Capacitors  
+  
+_Water Analogy to Storage Tank  
+  
+Describe their Composition  
+  
+Discuss Charge Storage and E-field  
+  
+State q = CV and E = CV2/2  
+  
+Derive differential equations for RC and show exponentials are solutions
+{{< tdclose >}}
+{{< tdopen >}}
+_New Components_  
+  
+Capacitors  
+  
+_Applications  
+  
+_Filters for: Ripple, Noise Removal, Sig. Detection, Equalization  
+  
+Regulated Power Supply
+{{< tdclose >}}
+{{< tdopen >}}
+Homework 3 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+6
+{{< tdclose >}}
+{{< tdopen >}}
+Lec 5: Relays and Transistors
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 6: Relays and Transistors
+{{< tdclose >}}
+{{< tdopen >}}
+_Electromechanical Relay  
+  
+_How it works  
+  
+Specifications for Driving Coil  
+  
+State need for Flyback Diode  
+  
+_Motors and their operation Bipolar Transistors as switches NPN only, properties under  
+  
+_No Bias  
+  
+Linear Regime  
+  
+Saturation
+{{< tdclose >}}
+{{< tdopen >}}
+_New Components_  
+  
+DC Motor  
+  
+E-M Relay  
+  
+NPN Transistor  
+  
+_Applications  
+_  
+Control of Lighting, Motion, the Universe, and Everything
+{{< tdclose >}}
+{{< tdopen >}}
+Homework 4 out
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7
+{{< tdclose >}}
+{{< tdopen >}}
+Lec 6: Op-Amps
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 7: Op-Amps
+{{< tdclose >}}
+{{< tdopen >}}
+_Op-Amps  
+  
+_Golden Rules  
+  
+Analyze Inverting Amp  
+  
+Discuss Behavior Near Rails  
+  
+_Some Limits on Applicability of Golden Rules  
+  
+Comparators  
+  
+_Rules of Operation  
+  
+Inverting Circuit  
+  
+Non-Inverting
+{{< tdclose >}}
+{{< tdopen >}}
+_New Components_  
+  
+741 Op-Amp as Amplifier  
+  
+741 Op-Amp as Comparator  
+  
+_Applications  
+_  
+Signal Conditioning, etc.
+{{< tdclose >}}
+{{< tdopen >}}
+Homework 4 due
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+8
+{{< tdclose >}}
+{{< tdopen >}}
+Lec 7: Flip-Flops and the 555 Timer Circuit
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 8: 555 Timer Circuit
+{{< tdclose >}}
+{{< tdopen >}}
+555 Timers
+{{< tdclose >}}
+{{< tdopen >}}
+_New Components  
+  
+_555 Timer
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9
+{{< tdclose >}}
+{{< tdopen >}}
+Lec 8: Final Project Overview
+{{< tdclose >}}
+{{< tdopen >}}
+Lab 9: Sensors
+{{< tdclose >}}
+{{< tdopen >}}
+CdS Cells as Sensors
+{{< tdclose >}}
+{{< tdopen >}}
+_New Components_  
+  
+CdS Cell  
+  
+_Applications  
+_  
+Many Robotic and Electro-mechanical Applications!
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10
+{{< tdclose >}}
+{{< tdopen >}}
+Lec 9: Final Project Concepts
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+11-14
+{{< tdclose >}}
+{{< tdopen >}}
+Final Projects
+{{< tdclose >}}
+{{< tdopen >}}
+Final Projects
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+{{< tdclose >}}
+{{< tdopen >}}
+Final Presentation
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
