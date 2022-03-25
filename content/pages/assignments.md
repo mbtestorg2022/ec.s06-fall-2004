@@ -12,6 +12,6 @@ Homework 2 ([PDF]({{< baseurl >}}/resources/mitec_s06f04_hw2))
 
 Homework 3 ([PDF]({{< baseurl >}}/resources/mitec_s06f04_hw3))
 
-Homework 3 Solutions (![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[PDF]({{< baseurl >}}/resources/mitec_s06f04_hw3_solutions))
+Homework 3 Solutions ([PDF]({{< baseurl >}}/resources/mitec_s06f04_hw3_solutions))
 
 Homework 4 ([PDF]({{< baseurl >}}/resources/mitec_s06f04_hw4))
